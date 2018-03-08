@@ -35,7 +35,7 @@
 #      a = a_bf.find_all('a')
 #      for each in a:
 #           print(each.string+server+each.get("href"))
-
+###test
 
 # -*- coding:UTF-8 -*-
 from bs4 import BeautifulSoup
