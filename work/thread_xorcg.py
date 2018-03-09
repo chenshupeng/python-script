@@ -1,6 +1,7 @@
 # coding:utf-8
 # author:csp
 # updata time 2018-2-1
+#develop this code by python 2.7
 
 import socket
 import time
@@ -138,14 +139,3 @@ if __name__ == "__main__":
         con = Client(ip="10.20.0.129", port=p, layer=8,  flash=["zmz.swf", "cc.swf", "1080i50-ei.swf", "CCTV_BD.swf", "1080i50-LOGO-FengYunZuQiu-L.swf", "CCTV_BD.swf",
                  "1080i-clock.swf", "dve.swf"])
         con.MyThreading(con.Case1)
-
-
-
-
-
-
-
-
-
-
-

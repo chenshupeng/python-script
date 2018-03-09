@@ -1,3 +1,5 @@
+#author csp
+#develop this code by python3
 import psutil
 import time
 from pylab import plt
@@ -100,13 +102,3 @@ if __name__ == "__main__":
     p.json_exist()
     p.run()
     p.get_picture()
-
-
-
-
-
-
-
-
-
-
